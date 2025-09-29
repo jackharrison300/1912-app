@@ -1,10 +1,6 @@
 {
-  "hosted-zone:account=957735183642:domainName=zoomercontemplation.com:region=us-east-1": {
-    "Id": "/hostedzone/Z0377935121METFBEMO5V",
-    "Name": "zoomercontemplation.com."
-  },
   "hosted-zone:account=957735183642:domainName=1912beta.com:region=us-east-1": {
-    "Id": "/hostedzone/Z020276831YN3EP2PDZ6Z",
+    "Id": "/hostedzone/Z099738423OQC00K6NMO3",
     "Name": "1912beta.com."
   }
 }

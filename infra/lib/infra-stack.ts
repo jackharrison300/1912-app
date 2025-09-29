@@ -42,11 +42,10 @@ export class InfraStack extends cdk.Stack {
     });
     
     // Create certificates for both domains
-    const siteCertificate = new acm.DnsValidatedCertificate(this, 'SiteCertificate', {
+    const siteCertificate = new acm.Certificate(this, 'SiteCertificate', {
       domainName: domainName,
       subjectAlternativeNames: [wwwDomain],
-      hostedZone: zone,
-      region: 'us-east-1', // CloudFront requires certificates in us-east-1
+      validation: acm.CertificateValidation.fromDns(zone),
     });
     
     // Create a CloudFront function to append .html to URLs without extensions
