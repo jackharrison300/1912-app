@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src="/assets/about/1912_logo.jpg" 
+              src="/assets/logos/gold_black_sm.jpg" 
               alt="1912 Institute Logo" 
               className="h-12 w-auto"
             />

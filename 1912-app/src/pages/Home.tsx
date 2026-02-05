@@ -2,12 +2,12 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-desert-50 to-desert-100 py-20">
+      <section className="bg-gradient-to-br from-desert-50 to-desert-100 py-10">
         <div className="container mx-auto px-4 text-center">
           <img 
-            src="/assets/about/1912_logo.jpg" 
-            alt="1912 Logo" 
-            className="mx-auto mb-8 h-24 w-auto"
+            src="/assets/logos/gold_black_sm.jpg" 
+            alt="1912 Logo"
+            className="mx-auto mb-8 h-32 w-auto"
           />
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             About 1912

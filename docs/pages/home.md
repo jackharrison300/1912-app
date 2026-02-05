@@ -1,6 +1,6 @@
 # About 1912
 
-![1912 Logo](1912_logo.jpg)
+![1912 Logo](logos/gold_black_sm.jpg)
 
 ## An Oasis of Local Journalism and Commentary in the Desert
 
